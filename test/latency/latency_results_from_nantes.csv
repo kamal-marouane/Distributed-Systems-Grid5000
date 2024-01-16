@@ -1,0 +1,13 @@
+Site,Method,Latency
+grenoble,scp,.5083
+grenoble,rsync,.6139
+nancy,scp,.5181
+nancy,rsync,.6456
+rennes,scp,.6434
+rennes,rsync,.7332
+luxembourg,scp,.5884
+luxembourg,rsync,.6406
+lyon,scp,.6255
+lyon,rsync,.6331
+lille,scp,.5650
+lille,rsync,.5904
