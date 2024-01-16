@@ -1,0 +1,13 @@
+S -> R 
+R -> R' R | ε
+R' -> Target : Dep Com 
+Target -> All | Word
+Dep -> Dep' DepList | ε
+DepList -> ',' Dep' DepList | ε 
+Dep' -> Word
+Com -> TabbCom Com | ε
+TabbCom -> '\t' Com'
+Com' -> Characters
+Word -> Characters
+Characters -> Character | Character Characters
+Character -> 'a' | 'b' | 'c' | ... | 'z' | 'A' | 'B' | 'C' | ... | 'Z' | '0' | '1' | ... | '9' | '_' | '.' | ...

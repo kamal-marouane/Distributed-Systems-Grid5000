@@ -1,0 +1,7 @@
+file.txt : file1.txt gold.txt file2.txt
+	echo $(( $(cat file1.txt) * $(cat file2.txt) + $(cat gold.txt))) > file.txt
+file1.txt :
+	echo "3" > file1.txt
+
+file2.txt:
+	echo "5" > file2.txt
