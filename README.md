@@ -1,12 +1,12 @@
 # Grid5000-distributed-system
 A distributed make execution in Grid5000.
 
-### Members of the team
+### Team Mambers
 
 - GHAZAOUI Badr
 - MAROUANE Kamal
 - RIMAOUI Nabila
-- ZERKTOUNI Ismail
+- ZARKTOUNI Ismail
 
 ## Connect to Grid5000
 First, to simplify ssh connection to a site frontend, place the next `config` file inside your ~/.ssh folder :
